@@ -1,88 +1,97 @@
-body{
+/* ----- Estructura General ----- */
+body {
     width: 1400px;
     margin: 0px;
 }
 
+/* ----- Encabezado ----- */
 header {
     background-color: #71aeb8;
-    color: white;
+    color: white;              /* Texto en blanco */
     text-align: center;
-    padding: 20px;
+    padding: 20px; 
     border-radius: 8px;
 }
 
+/* ----- Título Principal ----- */
 .titulo h1 {
-    margin: 0;
+    margin: 0; 
     padding: 10px;
     font-size: 50px;
-    font-family: Impact, fantasy;
-    letter-spacing: 5px; 
+    font-family: Impact, fantasy; 
+    letter-spacing: 5px;       /* Espaciado entre letras */
 }
 
+/* ----- Barra de Navegación ----- */
 .barra {
     margin-top: 15px;
     color: white;
 }
 
 .barra a {
-    display: inline-block;
+    display: inline-block;     /* Permite margen y padding */
     padding: 10px 15px;
     margin: 30px;
     color: white;
-    text-decoration: none;
+    text-decoration: none;     /* Quita el subrayado */
     background-color: #4c86b6;
     border-radius: 30px;
     font-family: "Consolas", monospace;
     font-size: 30px;
 }
 
+/* Efecto en los enlaces de la barra */
 .barra a:hover {
-    background-color: #000000;
+    background-color: #000000; /* Fondo negro en el hover */
     transition-duration: 1s;
-   color: white;
+    color: white;
 }
 
+/* ----- Contenido Principal ----- */
 main {
     padding: 20px;
     background-color: #81c6d1;
     border-radius: 8px;
 }
 
+/* ----- Tablas ----- */
 table {
-    width: 80%;              
-    margin: 20px auto;     
-    border-collapse: collapse; 
+    width: 80%;
+    margin: 20px auto;         /* Centrado en la página */
+    border-collapse: collapse; /* Bordes unificados */
     font-family: 'Calibri', serif;
     font-size: 25px;
     text-align: center;
 }
 
 th, td {
-    border: 1px solid #333;  
-    padding: 12px;            
+    border: 1px solid #333;    /* Borde de celdas */
+    padding: 12px;             /* Espaciado interno */
 }
 
 th {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     color: white;
 }
 
 td img {
-    width: 150px;              
+    width: 150px;              /* Imágenes en la tabla */
     border-radius: 8px;
 }
 
+/* ----- Enlaces tabla ----- */
 a {
-    text-decoration: none;
+    text-decoration: none;     /* Quita subrayado */
     color: #4c86b6;
 }
 
 a:hover {
-    color: #000000;
+    color: #000000;            /* Efecto del hover */
 }
 
+/* ----- Pie de página ----- */
 footer {
-    background-color: #435658;
+    background-color: #435658; 
     color: white;
     text-align: center;
     padding: 20px;
@@ -90,6 +99,7 @@ footer {
     border-radius: 8px;
 }
 
+/* Enlaces en el footer (redes sociales) */
 footer .redes a {
     display: inline-block;
     margin: 10px;
@@ -105,7 +115,8 @@ footer .redes a {
     transition-duration: 1s;
 }
 
-.titulo5{
+/* Título del footer */
+.titulo5 {
     font-size: 15px;
     font-family: "Consolas", monospace;
 }
