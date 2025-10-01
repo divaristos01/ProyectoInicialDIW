@@ -1,58 +1,66 @@
-body{
-    width: 1400px;
+/* ----- Estructura General ----- */
+body {
+    width: 1400px; /* Ancho total de la página */
     margin: 0px;
 }
 
+/* ----- Encabezado ----- */
 header {
     background-color: #71aeb8;
-    color: white;
+    color: white;              /* Texto en blanco */
     text-align: center;
-    padding: 20px;
+    padding: 20px; 
     border-radius: 8px;
 }
 
+/* ----- Título Principal ----- */
 .titulo h1 {
-    margin: 0;
+    margin: 0; 
     padding: 10px;
     font-size: 80px;
-    font-family: Impact, fantasy;
-    letter-spacing: 10px;
+    font-family: Impact, fantasy; 
+    letter-spacing: 10px;      /* Espaciado entre letras */
 }
 
+/* ----- Barra de Navegación ----- */
 .barra {
     margin-top: 15px;
     color: white;
 }
 
 .barra a {
-    display: inline-block;
+    display: inline-block;     /* Permite margen y padding */
     padding: 10px 15px;
-    margin: 30px;
+    margin: 30px;              /* Espaciado entre enlaces */
     color: white;
-    text-decoration: none;
+    text-decoration: none;     /* Quita el subrayado */
     background-color: #4c86b6;
     border-radius: 30px;
     font-family: "Consolas", monospace;
     font-size: 20px;
 }
 
+/* Efecto en los enlaces */
 .barra a:hover {
-    background-color: #000000;
+    background-color: #000000; /* Fondo negro en el efecto hover */
     transition-duration: 1s;
 }
 
+/* ----- Contenido Principal ----- */
 main {
     padding: 20px;
     background-color: #81c6d1;
     border-radius: 8px;
 }
 
+/* Primer título del main */
 .titulo2 h2 {
     font-size: 24px;
     margin-bottom: 15px;
     text-align: center;
 }
 
+/* Texto de introducción */
 .introduccion {
     display: inline-block;
     width: 800px;
@@ -61,49 +69,55 @@ main {
     font-size: 20px;
 }
 
+/* Imagen */
 .imagen {
-    display: inline-block;
+    display: inline-block;  /* Para poder colocarlo a la derecha del texto */
     width: 30%;           
     margin-left: 30px;   
     margin-top: 10px; 
 }
 
 .imagen img {
-    border-radius: 8px;
+    border-radius: 8px; /* Bordes redondeados */
 }
 
+/* Título de las posibles soluciones */
 .titulo3 h2 {
     text-align: center;
     margin-top: 70px;
 }
 
-.lista{
+/* Lista de elementos */
+.lista {
     display: inline-block; 
     font-family: 'Calibri', serif;
     font-size: 25px;
     margin-top: 10px;
 }
 
-.lista li{
-    margin-bottom: 25px;
+.lista li {
+    margin-bottom: 25px; /* Espacio entre ítems */
 }
 
-.titulo4{
+/* Título de opina sobre nosotros */
+.titulo4 {
     text-align: center;
     margin-top: 70px;
 }
 
-.cuadro{
+/* Cuadro de texto centrado */
+.cuadro {
     text-align: center;
 }
 
-.boton{
+/* Botón alineado a la derecha */
+.boton {
     margin-left: 900px;
-    
 }
 
+/* ----- Pie de página ----- */
 footer {
-    background-color: #435658;
+    background-color: #435658; 
     color: white;
     text-align: center;
     padding: 20px;
@@ -111,6 +125,7 @@ footer {
     border-radius: 8px;
 }
 
+/* Enlaces en el footer (redes sociales) */
 footer .redes a {
     display: inline-block;
     margin: 10px;
@@ -126,7 +141,8 @@ footer .redes a {
     transition-duration: 1s;
 }
 
-.titulo5{
+/* Texto parte final del footer */
+.titulo5 {
     font-size: 15px;
     font-family: "Consolas", monospace;
 }
